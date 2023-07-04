@@ -9,6 +9,7 @@ public class Main {
         task7();
         task8();
         task9();
+        task10();
 
     }
 
@@ -81,6 +82,10 @@ public class Main {
             System.out.println("Месяц " + a + ", сумма накоплений равна " + total + " рублей");
         }
     }
-
-
+    public static void task10() {
+        System.out.println("Задача 10");
+        for (int x = 0; x <= 20; x = x + 1 * 2) {
+            System.out.println("Таблица уиножения на 2 = " + x);
+        }
+    }
 }
